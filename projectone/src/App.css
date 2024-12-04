@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+button{
+    all: unset;
+    cursor: pointer;
+    
+    height:31px;
+    background-color: #D01C28;
+    padding: 6px 16px;
+    color: white;
+    border-radius: 5px;
+}
+
+.container
+{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+body
+{
+    font-family: "Poppins", sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1280px;
+    margin: 0 auto;
+    height: 72px;
+    align-items: center;
+    cursor: pointer;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 24px;
+}
+
+.Hero
+{
+    display: flex;
+    height: calc(100vh - 72px);
+
+}
+
+.Hero h1{
+    font-size: 108px;
+    line-height: 102px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.Hero p{
+    color: gray;
+    font-weight:600;
+}
+
+.hero-btn
+{
+    display: flex;
+    gap: 40px;
+    border-radius: 300px;
+}
+.hero-btn
+{
+    font-size: 20px;
+}
+
+.scnd-btn
+{
+    background: transparent;
+    color: gray;
+    border: 1px solid gray;
+
+}
+.brand-icons
+{
+    display: flex;
+    gap: 16px;
+}
+
+.flipbtn
+{
+    background: transparent;
+}
+
+.Shopping p{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.HeroContent
+{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8px;
+}
+
+.HeroContent p{
+    max-width: 400px;
+}
+
